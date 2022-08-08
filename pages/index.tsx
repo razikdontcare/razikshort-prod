@@ -134,8 +134,8 @@ const Home: NextPage = () => {
       <meta name="title" content="RazikShort - URL Shortener" />
       <meta name="icon" content="/favicon.ico" />
       <meta name="description" content="A Free and Open-Source URL Shortener to make your Long Link/URL to Short Link/URL." />
-      <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-      <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+      <meta httpEquiv="X-UA-Compatible" content="ie=edge" />
+      <meta httpEquiv="Content-Type" content="text/html;charset=UTF-8" />
     </Head>
     <Container maxW="3xl">
       <Stack as={Box} textAlign="center" spacing={{base: 8, md: 14}} pt={{base: 20, md: 36}} pb={5}>
