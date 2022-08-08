@@ -1,3 +1,5 @@
+## What To Do
+
 Change your `firebaseConfig` on `firebase.tsx`
 ```javascript
 import {initializeApp} from 'firebase/app'
