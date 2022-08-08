@@ -13,6 +13,8 @@ const app = initializeApp(firebaseConfig)
 export default app
 ```
 
+[Open This Link](https://firebase.google.com/docs/web/setup#register-app) to see how you can get your firebase config.
+
 ## Getting Started
 
 First, run the development server:
