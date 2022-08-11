@@ -21,18 +21,21 @@ No. | To Do
 1 | Authentication
 2 | Dashboard
 3 | Link Management
-4 | ...
 
 ## Getting Started
 
 First, run the development server:
 
 ```bash
+# npm
 npm install
 npm run dev
-# or
+# yarn
 yarn install
 yarn dev
+# pnpm
+pnpm install
+pnpm run dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
