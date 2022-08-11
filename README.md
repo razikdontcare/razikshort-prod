@@ -18,10 +18,10 @@ export default app
 ## To Do List
 No. | To Do
 --- | ---
-1. | Authentication
-2. | Dashboard
-3. | Link Management
-4. | ...
+1 | Authentication
+2 | Dashboard
+3 | Link Management
+4 | ...
 
 ## Getting Started
 
