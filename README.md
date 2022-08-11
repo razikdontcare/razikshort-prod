@@ -1,4 +1,4 @@
-## What To Do
+## First Step
 
 Change your `firebaseConfig` on `firebase.tsx`
 ```javascript
@@ -14,6 +14,14 @@ export default app
 ```
 
 [Open This Link](https://firebase.google.com/docs/web/setup#register-app) to see how you can get your firebase config.
+
+## To Do List
+No. | To Do
+--- | ---
+1. | Authentication
+2. | Dashboard
+3. | Link Management
+4. | ...
 
 ## Getting Started
 
