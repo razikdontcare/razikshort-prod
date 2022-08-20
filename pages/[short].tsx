@@ -1,8 +1,6 @@
 import React from 'react'
-import {NextApiRequest, NextApiResponse, NextPage} from 'next'
-import {useRouter} from 'next/router'
 import app from '../firebase'
-import {getFirestore, getDoc, updateDoc, doc} from 'firebase/firestore'
+import {getFirestore, getDoc, doc} from 'firebase/firestore'
 
 const db = getFirestore(app)
 
@@ -30,26 +28,12 @@ export async function getServerSideProps({params}: Params) {
             }
         }
     }
-
-    return {
-        props: {}
-    }
-
 }
 
-const Short: NextPage = (props) => {
-    const router = useRouter()
-    const {short} = router.query
-    const [isExists, setIsExists] = React.useState(false)
-    const [result, setResult] = React.useState('')
-
-    
-    
-
-    
-    return <>
+const Short = () => {
+    return (<>
         
-    </>
+    </>)
 }
 
 export default Short
