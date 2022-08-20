@@ -1,6 +1,6 @@
 ## First Step
 
-Change your `firebaseConfig` on `firebase.tsx`
+Change your `firebaseConfig` on `firebase.ts`
 ```javascript
 import {initializeApp} from 'firebase/app'
 
